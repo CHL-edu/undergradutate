@@ -1,5 +1,5 @@
 # undergradutate
-help sdu members
+Hoping it can help sdu members
 
 Disclaimer for Personal GitHub Repository
 
@@ -19,4 +19,4 @@ If any portion of this disclaimer is deemed invalid or unenforceable, that porti
 
 The author reserves the right to modify this disclaimer unilaterally at any time. Changes will be announced via repository updates or webpage notices and will take effect immediately upon publication. Continued use of this library after such modifications constitutes your acceptance of the revised terms.
 
-Senior students graduating in 2024
+graduated in 2024
