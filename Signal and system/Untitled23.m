@@ -1,0 +1,13 @@
+syms w t;
+H=1/(1+1i*w);
+et=sin(t)+sin(3*t);
+F=fourier(et);
+rt=ifourier(F*H);
+subplot(211);
+ezplot(et,[-8,8]),grid on;
+xlabel('t'); ylabel('e(t)');
+title('输入e(t)');
+subplot(212);
+ezplot(rt,[-16,16]),grid on;
+xlabel('t'); ylabel('r(t)');
+title('输出r(t)');

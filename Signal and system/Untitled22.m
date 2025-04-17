@@ -1,0 +1,14 @@
+syms w;
+H=1/(1+1i*w);
+subplot(211);
+ezplot(abs(H),[-4,4]),grid on;
+xlabel('w(rad/s)'); 
+ylabel('abs(H)');
+title('幅频特性');
+x=real(H);y=imag(H);
+phi=atan(y/x);
+subplot(212);
+ezplot(phi,[-10,10]),grid on;
+xlabel('w(rad/s)'); 
+ylabel('phi');
+title('相频特性');

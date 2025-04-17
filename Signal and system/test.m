@@ -1,0 +1,12 @@
+t=-4:0.01:4;
+y=abs(sawtooth(pi*0.5*t,0.5));
+n=1;
+N=1:2:n;
+x=4./((pi*N).^2)*cos(pi * N' * t);
+plot(t,y);
+hold on;
+x=x+0.5;
+plot(t,x);
+hold off;
+axis([-4 4 -0.5 1.5]),grid on;
+title(['最大谐波=1']);

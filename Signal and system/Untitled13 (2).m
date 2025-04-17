@@ -1,0 +1,10 @@
+dt=0.01;t=-1:dt:3;
+u1=stepfun(t,0);
+u2=stepfun(t,1);
+u3=stepfun(t,2);
+u4=stepfun(t,3);
+y1=u1-u3;
+y2=u1+u2-u3-u4;
+y3=conv(y1,y2)*dt;
+n=length(y3);tt=(0:n-1)*dt-2;
+plot(tt,y3);

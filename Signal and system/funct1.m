@@ -1,0 +1,10 @@
+t=-2:0.01:4;
+a=t-3;b=2*t;c=-t;d=-2*t-5;
+ft1=(a>-2)-(a>0)+(-(a)+1).*((a>0)-(a>1));
+ft2=(b>-2)-(b>0)+(-(b)+1).*((b>0)-(b>1));
+ft3=(c>-2)-(c>0)+(-(c)+1).*((c>0)-(c>1));
+ft4=(d>-2)-(d>0)+(-(d)+1).*((d>0)-(d>1));
+subplot(2,2,1);plot(t,ft1);grid on;title('3(1)');
+subplot(2,2,2);plot(t,ft2);grid on;title('3(2)');
+subplot(2,2,3);plot(t,ft3);grid on;title('3(3)');
+subplot(2,2,4);plot(t,ft4);grid on;title('3(4)');
