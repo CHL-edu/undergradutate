@@ -1,4 +1,5 @@
 #include <stdio.h>
+//acknowledge the define
 #define IN 1
 #define OUT 0
 
