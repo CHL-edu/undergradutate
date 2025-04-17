@@ -1,5 +1,5 @@
 # undergradutate
-Hoping it can help sdu members
+Hoping it can help SDU members who major in the Electronic Information Category
 
 Disclaimer for Personal GitHub Repository
 
